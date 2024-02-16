@@ -4,6 +4,10 @@ def add_expense(expenses, amount, category):
 
 expenses = []
 
+def print_expenses(expenses):
+    for expense in expenses:
+        pass
+
 
 
 
