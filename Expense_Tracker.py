@@ -8,7 +8,8 @@ def print_expenses(expenses):
     for expense in expenses:
         pass
 
-
+def total_expenses(expenses):
+    pass
 
 
 
