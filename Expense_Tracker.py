@@ -37,15 +37,20 @@ def main():
             print('\nAll Expenses: ')
             print_expenses(expenses)
             print('\nTotal Expenses: ', total_expenses(expenses))
-            elif choice == '4':
+        elif choice == '4':
             category = input('Enter category to filter: ')
             print(f"\nExpenses for {catergory}:")
             expenses_from_category = filter_expenses_by_category(expenses, category)
             print_expenses(expenses_from_category)
+        elif choice == '5':
             print('Exiting the program.')
             break
 
-main()
+if __name__ == '__main__':
+    main()
+
+
+
 
 
 
